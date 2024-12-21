@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Social Links Profile</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <div class="user">
+        <img
+          src="./assets/images/avatar-jessica.jpeg"
+          alt="Avatar of Collins Adaigho"
+          class="avatar"
+        />
+        <div class="details">
+          <h1 class="name">Collins Adaigho</h1>
+          <p class="location">Delta State, Nigeria</p>
+        </div>
+        <span class="desc">"Front-end developer and avid reader."</span>
+      </div>
+      <nav aria-label="Social Links">
+        <ul class="socials">
+          <li class="link">
+            <a href="https://github.com/Donsmatt" target="_blank" aria-label="GitHub Profile"
+              >GitHub</a
+            >
+          </li>
+          <li class="link">
+            <a
+              href="https://www.frontendmentor.io/profile/Donsmatt" target="_blank"
+              aria-label="Frontend Mentor Profile"
+              >Frontend Mentor</a
+            >
+          </li>
+          <li class="link">
+            <a
+              href="https://www.linkedin.com/in/collins-adaigho-658b75151/" target="_blank"
+              aria-label="LinkedIn Profile"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="link">
+            <a href="https://x.com/CAdaigho" target="_blank" aria-label="Twitter Profile"
+              >Twitter</a
+            >
+          </li>
+          <li class="link">
+            <a href="#" aria-label="Instagram Profile">Instagram</a>
+          </li>
+        </ul>
+      </nav>
+    </main>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer>
+      <address class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Donsmatt">Collins Adaigho</a>.
+      </address>
+    </footer>
+  </body>
 </html>

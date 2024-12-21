@@ -161,7 +161,8 @@ a {
 }
 
 .attribution a {
-  color: var(--accent-link);
+  color: var(--primary);
+  font-weight: var(--fw-b);
   text-decoration: none;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
